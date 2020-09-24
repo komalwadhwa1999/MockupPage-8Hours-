@@ -27,7 +27,7 @@ export default class SignUp extends Component {
                 ) :
                     facebookData = (
                     <FacebookLoginBtn
-                    appId= "2852438368320447"
+                    appId= "ENTER THE APP ID"
                     autoLoad={true}
                     fields="name,picture"
                     onClick={this.componentClicked}
